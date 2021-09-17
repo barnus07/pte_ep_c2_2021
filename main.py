@@ -14,7 +14,7 @@ def tabla(sor, oszlop):
 
 mx = tabla(3, 3)
 
-jatek_id = 1
+
 
 while 0 < 9:
     print("Első játékos")
@@ -29,28 +29,37 @@ while 0 < 9:
     jatekos2_ertek = "O"
     mx[jatekos2_sor][jatekos2_oszlop] = jatekos2_ertek
     print(mx[0][0],mx[0][1],mx[0][2],"\n",mx[1][0],mx[1][1],mx[1][2],"\n",mx[2][0],mx[2][1],mx[2][2])
-    if mx[0][0] and mx[1][0] and mx[2][0] == "X" and "O":
+    if mx[0][0] and mx[1][0] and mx[2][0] == "O":
+        print("1.jatekos nyert")
         break
-    elif mx[0][1] and mx[1][1] and mx[2][1] == "X" and "O":
+    elif mx[0][0] and mx[1][0] and mx[2][0] == "X":
         break
-    elif mx[0][2] and mx[1][2] and mx[2][2] == "X" and "O":
+    elif mx[0][1] and mx[1][1] and mx[2][1] == "O":
+        break    
+    elif mx[0][1] and mx[1][1] and mx[2][1] == "X":
+        break
+    elif mx[0][2] and mx[1][2] and mx[2][2] == "O":
+        break 
+    elif mx[0][2] and mx[1][2] and mx[2][2] == "X":
         break #oszlopos szabaly
-    if mx[0][0] and mx[0][1] and mx[0][2] == "X" and "O":
+    elif mx[0][0] and mx[0][1] and mx[0][2] == "O":
         break
-    elif mx[1][0] and mx[1][1] and mx[1][2] == "X" and "O":
+    elif mx[0][0] and mx[0][1] and mx[0][2] == "X":
+        break    
+    elif mx[1][0] and mx[1][1] and mx[1][2] == "O":
+        break    
+    elif mx[1][0] and mx[1][1] and mx[1][2] == "X":
         break
-    elif mx[2][0] and mx[2][1] and mx[2][2] == "X" and "O":
+    elif mx[2][0] and mx[2][1] and mx[2][2] == "O":
+        break
+    elif mx[2][0] and mx[2][1] and mx[2][2] == "X":
         break #soros szabaly
-    if mx[0][0] and mx[1][1] and mx[2][2] == "X" and "O":
+    elif mx[0][0] and mx[1][1] and mx[2][2] == "O":
         break
-    elif mx[2][0] and mx[1][1] and mx[0][2] == "X" and "O":
+    elif mx[0][0] and mx[1][1] and mx[2][2] == "X": 
+        break
+    elif mx[2][0] and mx[1][1] and mx[0][2] == "O":
+        break
+    elif mx[2][0] and mx[1][1] and mx[0][2] == "X":
         break #keresztbe szabaly
-
-
-
-
-
-
-
-
-
+    
