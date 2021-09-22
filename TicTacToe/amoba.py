@@ -22,13 +22,13 @@ while 0 < 9:
     jatekos1_oszlop = int(input("Y:"))
     jatekos1_ertek = "X"
     mx[jatekos1_sor][jatekos1_oszlop] = jatekos1_ertek
-    print(mx[0][0],mx[0][1],mx[0][2],"\n",mx[1][0],mx[1][1],mx[1][2],"\n",mx[2][0],mx[2][1],mx[2][2])
+    print(mx[0][0],mx[0][1], mx[0][2], "\n", mx[1][0], mx[1][1], mx[1][2], "\n", mx[2][0], mx[2][1], mx[2][2])
     print("Második játékos")
     jatekos2_sor = int(input("X:"))
     jatekos2_oszlop = int(input("Y:"))
     jatekos2_ertek = "O"
     mx[jatekos2_sor][jatekos2_oszlop] = jatekos2_ertek
-    print(mx[0][0],mx[0][1],mx[0][2],"\n",mx[1][0],mx[1][1],mx[1][2],"\n",mx[2][0],mx[2][1],mx[2][2])
+    print(mx[0][0],mx[0][1], mx[0][2], "\n", mx[1][0], mx[1][1], mx[1][2], "\n", mx[2][0], mx[2][1], mx[2][2])
     if mx[0][0] and mx[1][0] and mx[2][0] == "O":
         print("1.jatekos nyert")
         break
