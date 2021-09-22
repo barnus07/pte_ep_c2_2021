@@ -30,11 +30,11 @@ while 0 < len(s):
         break
 
 print("5(4). feladat")
-szoba = [75, 2]
-festek = [4300, 15]
+szoba = [75, 2] #1. szükséges festek 2. réteg
+festek = [4300, 15] #1.festek ára, 2. m mennyisége
 festek_ar = szoba[1]*(szoba[0]/festek[1])*festek[0]
 print("A festék értéke:", festek_ar, "Ft")
-festo = [13, 1, 2100]
+festo = [13, 1, 2100] #1. munka idő 2. m-nyi haladás 3. munkabér
 munka = round(((festo[0]*(szoba[1]*(szoba[0]/festo[1])))/60)*festo[2])
 print("A festő munkájájának nettó összege:", munka, "Ft")
 vegar = festek_ar + munka
