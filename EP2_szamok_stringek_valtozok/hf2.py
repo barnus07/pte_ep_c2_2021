@@ -38,5 +38,5 @@ festo = [13, 1, 2100] #1. munka idő 2. m-nyi haladás 3. munkabér
 munka = round(((festo[0]*(szoba[1]*(szoba[0]/festo[1])))/60)*festo[2])
 print("A festő munkájájának nettó összege:", munka, "Ft")
 vegar = festek_ar + munka
-print("A végösszeg Áfá-val:", round(vegar), "Ft")
+print("A végösszeg Áfá-val:", round(vegar)*1.27, "Ft")
 
