@@ -62,4 +62,3 @@ while 0 < 9:
         break
     elif mx[2][0] and mx[1][1] and mx[0][2] == "X":
         break #keresztbe szabaly
-    
