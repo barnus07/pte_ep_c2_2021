@@ -61,5 +61,5 @@ while 0 < 9:
     elif mx[2][0] and mx[1][1] and mx[0][2] == "O":
         break
     elif mx[2][0] and mx[1][1] and mx[0][2] == "X":
-        break #keresztbe szabalya
+        break #keresztbe szabaly
     
