@@ -22,9 +22,7 @@ print("A játékos neme:", nem)
 print("A játékos életkora:", kor)
 if nem == "f" and kor == 10 or 11 or 12:
     print("A játékos megfelel a követelménynek!")
-
-
-
+print("kecske")
 
 
 
