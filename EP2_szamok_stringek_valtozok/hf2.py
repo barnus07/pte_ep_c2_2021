@@ -22,7 +22,7 @@ i = 0
 
 while 0 < len(s):
     if len(s[i]) > 10:
-        print(s[i], len(s[i]))
+        print(s[i],"10 betünél hosszab", len(s[i]))
     else:
         print(len(s[i]))
     i = i+1

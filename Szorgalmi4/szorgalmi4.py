@@ -2,7 +2,11 @@
 Startsystem = int(input("Adja meg a kiindulási rendszert (2,8,10,16):"))
 Goalsystem = int(input("Adja meg a célrendszert(2,8,10,16):"))
 szam = input("Adjon meg egy számot:")
-
+if int(szam) > 0:
+    print("good number")
+elif int(szam) < 0:
+    print("wrong number")
+    quit()
 def binary(n):
     s =bin(n)
     s1 = int(s[2:])
