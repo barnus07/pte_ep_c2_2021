@@ -1,1 +1,1 @@
-print("na csumi")
+print("na csumia")
