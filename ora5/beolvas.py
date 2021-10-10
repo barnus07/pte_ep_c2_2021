@@ -27,4 +27,4 @@ with open("szamok.txt", "rt", encoding="UTF-8") as fajl:
 
     i = str(input("adja meg az második számot:"))
     sorszam = Mszam.index(i)
-    print("Az Második szám párja a", f'{Eszam[sorszam]}.')
+    print("Az második szám párja a", f'{Eszam[sorszam]}.')
