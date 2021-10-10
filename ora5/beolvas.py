@@ -1,4 +1,4 @@
-with open("szamok.txt", "rt" , encoding="UTF-8") as fajl:
+with open("szamok.txt", "rt", encoding="UTF-8") as fajl:
     szoveg = [sor.strip() for sor in fajl]
     fajl.close()
     Eszam = []
