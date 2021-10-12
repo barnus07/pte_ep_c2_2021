@@ -1,3 +1,4 @@
+import random
 with open("szamok.txt", "rt", encoding="UTF-8") as fajl:
     szoveg = [sor.strip() for sor in fajl]
     fajl.close()
@@ -28,3 +29,4 @@ with open("szamok.txt", "rt", encoding="UTF-8") as fajl:
     i = str(input("adja meg az második számot:"))
     sorszam = Mszam.index(i)
     print("Az második szám párja a", f'{Eszam[sorszam]}.')
+
