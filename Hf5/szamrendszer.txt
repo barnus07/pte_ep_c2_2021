@@ -1,0 +1,3 @@
+A szam 2-es számrendszerben:	11001000
+A szam 8-es számrendszerben:	310
+A szam 16-es számrendszerben:	c8
