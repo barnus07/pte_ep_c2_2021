@@ -1,8 +1,7 @@
 import math
-
+print("1. Feladat")
 with open("szamok.txt", "rt", encoding="UTF-8") as f:
     tartalom = [sor.strip() for sor in f]
-    print("1. Feladat")
     sum = 0
     i = 0
     while(tartalom):
@@ -12,8 +11,8 @@ with open("szamok.txt", "rt", encoding="UTF-8") as f:
         if i == len(tartalom):
             break
     print("A fájl sorainak száma",len(tartalom), "karakterek száma:",sum)
-    print("2. Feladat")
 
+print("2. Feladat")
 with open("szorzotabla.txt", "wt") as f:
     szorzotabla = []
     for i in range(1, 11):
@@ -29,7 +28,7 @@ with open("szorzotabla.txt", "wt") as f:
             break
 
 
-
+print("3. Feladat")
 with open("szamrendszer.txt", "wt", encoding="UTF-8") as f:
     szam = int(input("adjon meg egy szamot:"))
     def binary(n):
