@@ -15,4 +15,4 @@ if flavor is not None:
     msgbox("You picked: "+ flavor)
 else:
     print("Cancel gombra nyomott a felhasználó.")
-    msgbox("Viszlát",)
+    msgbox("Viszlát")
