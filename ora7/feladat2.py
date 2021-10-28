@@ -7,7 +7,7 @@ i = 0
 try:
     tipp = enterbox(f'adjon meg egy tippet:{i+6}')
     while i<=5:
-        index = (i+5)-1*i
+        index = 5-i
         if int(tipp) == szam:
             if tipp is None:
                 msgbox('A játékos nem adott meg egy számot')
