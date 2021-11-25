@@ -9,6 +9,7 @@ def input(users: dict):
             users[name] = phone_numbers,phone_numbers2
         else:
             users[name] = phone_numbers
+
 def ABC(users: dict):
     for key,value in sorted(users.items()):
         sorted(users.keys())
@@ -16,7 +17,7 @@ def ABC(users: dict):
 
 def require(users: dict):
     print(users.keys())
-    name = input("adjon meg egy nevet a fentiekkből: \t")
+    name = input("adjon meg egy nevet a fentiekkből:\t")
     print(users[name])
 
 users = {}
