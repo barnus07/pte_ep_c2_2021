@@ -1,0 +1,8 @@
+Kiss    Máté    Fő utca 3.  3496    +3632568452 1954.03.18.
+Kiss    Tamás János Arany János utca 12.    7624    +3672165792 2001.12.03.
+Magyar  Aranka  Jókai út 8/B    4692    +36301254564    1989.09.30.
+Máté    Katalin Pacsirta utca 3.    7624    +36721685326    1989.04.19.
+Molnár  Tamás  Kőműves út 47.  1567 +3632467852 1954.12.01.
+Polgár  Aranka  Fő utca 4.  1567    +361285467  2002.12.03.
+Tar János   Kőműves út 73.  1567    +3632167584 2001.04.25.
+Tar Katalin Jókai körút 6.  7624    +3632695785 2001.09.17.

@@ -1,0 +1,6 @@
+fileobject = open("fajl1.txt", "r")
+print(type(fileobject.read()))
+fileobject.close()
+fileobject = open("fajl1.txt", "r")
+print(type(fileobject.readlines()))
+fileobject.close()
