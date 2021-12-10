@@ -3,6 +3,3 @@ class write:
     def greet(self):
         print("Hello")
 
-print(write.age)
-print(write.greet)
-print(write.__doc__)
